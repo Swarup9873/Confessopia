@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+
+  ::-webkit-scrollbar {
+    width: 0.5em;
+  }
+  
+
+}
+
+
+.Appp {
+    text-align: center;
+    background-color: #9ba2b0;
+  }
+  
+  .App-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  
+  .App-header {
+    height: 66px;
+    background-color: #9ba2b0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  
+  .App-body-header {
+    width: 100%;
+    height: 66px;
+    margin-top: 19px;
+    background-color: #4f535b;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+    color: white;
+    border-radius: 11px 11px 0 0;
+  }
+
+  .App_body_head{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 100%;
+    width: 100%;
+  }
+
+  .icon-wrapper:hover{
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    border-bottom-color: white;
+  }
+  .home-icon {
+    color: white; 
+  }
+  .fire-icon{
+    color: white; 
+  }
+  .add-icon {
+    color: white; 
+  }
+
+
+  .App-body-body {
+    height: 70vh;
+    background-color: #333;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    background-repeat: repeat;
+    background-position: center;
+    max-width: 1200px;
+    padding: 30px;
+    overflow: auto;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  }
+
+  /* .App_bottom {
+    margin-top: 20px;
+    background-color: #333;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    font-size: calc(10px + 2vmin);
+    color:white;
+    font-size:large;
+    font-family:'Times New Roman', Times, serif;
+  } */
+
+  .App_bottom {
+    margin-top: 20px;
+    background-color: #333;
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    
+  }
+
+  .App-bottom-upper{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    font-size: calc(10px + 2vmin);
+    color:white;
+    font-size: calc(10px + 2vmin);
+    color:white;
+    font-size:large;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  .App-bottom-lower{
+    color: white;
+    font-size:small;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+  .App a{
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .App a:hover{
+    text-decoration: underline;
+  }
+
+
+
+  @media screen and (max-width: 600px) {
+   
+    .App-body {
+      overflow-x:hidden ;
+      width: 100%;
+      overflow-x: hidden;
+    }
+  }

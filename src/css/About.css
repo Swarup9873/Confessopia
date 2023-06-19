@@ -1,0 +1,27 @@
+.about-container header {
+    font-weight: 300;
+    font-family: monospace;
+  }
+
+  .about-container section {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #282c34;
+    padding: 20px;
+    text-align: left;
+  }
+

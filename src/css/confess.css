@@ -1,0 +1,80 @@
+.confess {
+    /* background-color: #9ba2b0; */
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .confess__body {
+    padding: 0px;
+  }
+
+  .confess__item{
+  
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  .confess-icons{
+    display: flex;
+    justify-content:space-between;
+  }
+  .confess-icons > svg{
+    margin-right: 10px;
+    cursor: pointer;
+    color: black;
+  }
+
+  .icon-wrapper {
+    color: black;
+    display: flex;
+    align-items: center;
+  }
+  
+  .like-count {
+    color: black;
+    margin-left: 5px;
+    font-size: 14px;
+  }
+
+.confess__message{
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 30px;
+    color: black;
+}
+
+
+
+.confess__messageContent {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+  }
+
+.confess__date{
+    margin-left: 10px;
+    font-size: x-small;
+    color: black;
+    position: relative;
+}
+
+
+.confess__college{
+    font-weight: 300;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #333;
+    margin-bottom: 0;
+    
+}
+
+.underline {
+  border-bottom: 1px solid #888;
+  margin-bottom: 4px;
+}
+

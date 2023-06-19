@@ -1,0 +1,30 @@
+.terms-container header {
+    font-weight: 300;
+    font-family: monospace;
+  }
+
+  .terms-container section {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .terms-container header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .terms-container footer {
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+  }
+
